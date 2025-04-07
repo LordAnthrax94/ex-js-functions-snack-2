@@ -6,14 +6,13 @@
 
 function somma(num1, num2) {
   return num1 + num2
-}
+};
 
-let sommaNumeri = somma(6, 8)
+let somma = function(num1, num2){
+  return num1 + num2
+};
 
-
-
-
-
+let somma = (num1, num2) =>  num1 + num2;
 
 
 
